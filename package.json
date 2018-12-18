@@ -1,13 +1,13 @@
 {
-  "name": "toy-server",
+  "name": "node-server-test1",
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "pm2 start --name \"toy-server-test\" ./bin/www",
-    "stop": "pm2 stop \"toy-server-test\" ./bin/www",
-    "delete": "pm2 delete \"toy-server-test\" ./bin/www",
-    "show": "pm2 show \"toy-server-test\" ./bin/www",
-    "restart": "pm2 restart \"toy-server-test\" ./bin/www"
+    "start": "pm2 start --name \"node-server-test1\" ./bin/www",
+    "stop": "pm2 stop \"node-server-test1\" ./bin/www",
+    "delete": "pm2 delete \"node-server-test1\" ./bin/www",
+    "show": "pm2 show \"node-server-test1\" ./bin/www",
+    "restart": "pm2 restart \"node-server-test1\" ./bin/www"
   },
   "dependencies": {
     "cookie-parser": "~1.4.3",
